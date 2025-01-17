@@ -24,6 +24,11 @@ pipeline {
             steps {
                 echo "Final Successful" 
             }
-        }       
+        } 
+        stage('Demo Success') {
+            steps {
+                echo "Demo Successful" 
+            }
+        }      
     }
 }

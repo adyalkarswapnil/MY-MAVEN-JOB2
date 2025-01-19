@@ -19,6 +19,16 @@ pipeline {
             steps {
                 echo "Build Successful"
             }
-        }        
+        }
+        stage('Final Success') {
+            steps {
+                echo "Final Successful" 
+            }
+        } 
+        stage('Demo Success') {
+            steps {
+                echo "Demo Successful" 
+            }
+        }      
     }
 }
